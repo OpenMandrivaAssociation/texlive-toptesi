@@ -1,11 +1,11 @@
-# revision 24225
+# revision 24466
 # category Package
 # catalog-ctan /macros/latex/contrib/toptesi
-# catalog-date 2011-10-06 18:44:56 +0200
+# catalog-date 2011-10-30 23:05:47 +0100
 # catalog-license lppl1.3
-# catalog-version 5.59b
+# catalog-version 5.59c
 Name:		texlive-toptesi
-Version:	5.59b
+Version:	5.59c
 Release:	1
 Summary:	Bundle of files for typsetting theses
 Group:		Publishing
