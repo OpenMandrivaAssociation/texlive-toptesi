@@ -1,12 +1,12 @@
-# revision 24466
+# revision 27275
 # category Package
 # catalog-ctan /macros/latex/contrib/toptesi
-# catalog-date 2011-10-30 23:05:47 +0100
+# catalog-date 2012-07-31 19:56:52 +0200
 # catalog-license lppl1.3
-# catalog-version 5.59c
+# catalog-version 5.60
 Name:		texlive-toptesi
-Version:	5.59c
-Release:	2
+Version:	5.60
+Release:	1
 Summary:	Bundle of files for typsetting theses
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/toptesi
