@@ -1,11 +1,11 @@
-# revision 27921
+# revision 31558
 # category Package
 # catalog-ctan /macros/latex/contrib/toptesi
-# catalog-date 2012-10-06 23:27:30 +0200
+# catalog-date 2013-09-01 13:02:38 +0200
 # catalog-license lppl1.3
-# catalog-version 5.61b
+# catalog-version 5.73
 Name:		texlive-toptesi
-Version:	5.61b
+Version:	5.73
 Release:	1
 Summary:	Bundle of files for typsetting theses
 Group:		Publishing
@@ -52,6 +52,8 @@ and with all the necessary metadata.
 %doc %{_texmfdistdir}/doc/latex/toptesi/LPPL.tex
 %doc %{_texmfdistdir}/doc/latex/toptesi/README
 %doc %{_texmfdistdir}/doc/latex/toptesi/manifest.txt
+%doc %{_texmfdistdir}/doc/latex/toptesi/topfront-example.pdf
+%doc %{_texmfdistdir}/doc/latex/toptesi/topfront-example.tex
 %doc %{_texmfdistdir}/doc/latex/toptesi/toptesi-doc-xetex-a.pdf
 %doc %{_texmfdistdir}/doc/latex/toptesi/toptesi-doc-xetex-def.ps
 %doc %{_texmfdistdir}/doc/latex/toptesi/toptesi-doc-xetex.pdf
