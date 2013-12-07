@@ -6,7 +6,7 @@
 # catalog-version 5.76
 Name:		texlive-toptesi
 Version:	5.76
-Release:	4
+Release:	5
 Summary:	Bundle of files for typsetting theses
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/toptesi
