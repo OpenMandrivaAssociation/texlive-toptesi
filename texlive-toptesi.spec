@@ -1,5 +1,5 @@
 Name:		texlive-toptesi
-Version:	6.1.10
+Version:	6.1.12
 Release:	1
 Summary:	Bundle of files for typsetting theses
 Group:		Publishing
