@@ -1,13 +1,13 @@
 Name:		texlive-toptesi
-Version:	6.2.09
+Version:	56276
 Release:	1
 Summary:	Bundle of files for typsetting theses
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/toptesi
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/toptesi.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/toptesi.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/toptesi.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/toptesi.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/toptesi.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/toptesi.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -28,12 +28,12 @@ to save the PDF version of a thesis in PDF/A-1b compliant mode
 and with all the necessary metadata.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -44,7 +44,8 @@ and with all the necessary metadata.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
