@@ -1,6 +1,6 @@
 Name:		texlive-toptesi
-Version:	56276
-Release:	2
+Version:	73464
+Release:	1
 Summary:	Bundle of files for typsetting theses
 Group:		Publishing
 URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/toptesi
